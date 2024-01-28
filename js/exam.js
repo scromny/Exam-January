@@ -87,7 +87,7 @@ async function error() {
     try {
         await renderUsers();
     } catch (error) {
-        console.log('Xatolik:', error);
+        console.error('Xatolik yuzaga keldi:', error);
     }
 }
 error();
