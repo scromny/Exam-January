@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam</title>
+    <link rel="shortcut icon" href="./img/35605ef0e00fa4602f6e39f83b6593eb.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="./css/exam.css">
+</head>
+<body>
+    <div class="box">
+        <button class="back">Log out</button>
+        <ul class="box__user"></ul>
+        <ul class="box__post"></ul>
+        <ul class="box__comment"></ul>
+    </div>
+
+    <template class="userstemp">
+        <li class="users__li">
+            <p class="users__li--id">1</p>
+            <h1 class="users__li--username">Bret</h1>
+            <h2 class="users__li--name">Leanne Graham</h2>
+            <a class="users__li--email" href="#">Sincere@april.biz</a>
+            <button class="user__btn" type="button">Next post</button>
+        </li>
+    </template>
+
+    <template class="posttemp">
+        <li class="posts__li">
+            <p class="post__userid">1</p>
+            <p class="post__id">1</p>
+            <p class="post__text">sunt aut facere repellat provident occaecati excepturi optio reprehenderit</p>
+            <p class="post__texts">est rerum tempore vitaensequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla</p>
+            <button class="post__btn">Next comments</button>
+        </li>
+    </template>
+
+    <template class="commenttemp">
+        <li class="comments__li">
+            <p class="com__postid">1</p>
+            <p class="com__id">1</p>
+            <p class="com__name">id labore ex et quam laborum</p>
+            <a class="com__email" href="#">Eliseo@gardner.biz</a>
+            <p class="com__text">quia molestiae reprehenderit quasi aspernatur\naut expedita occaecati aliquam eveniet laudantium\nomnis quibusdam delectus saepe quia accusamus maiores nam est\ncum et ducimus et vero voluptates excepturi deleniti ratione</p>
+        </li>
+    </template>
+
+    <script src="./js/exam.js"></script>
+</body>
+
+</html>
